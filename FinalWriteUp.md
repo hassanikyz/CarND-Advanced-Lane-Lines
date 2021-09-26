@@ -119,4 +119,5 @@ While this code is working for one video it is clear there are shortcomings here
 Challenge I faced was lane detection was failing on 23-24s mark on the project video -- it was detecting lane all the way to left of the highway divider vs till yellow line.
 Experimentating with different thresholds for color and gradient resolved the issues.
 
-Using of convolution neural network style technique vs sliding window vertically to identify 'hot' pixels for lanes detetion is expected to yield better result.
+Use of convolution neural network style technique vs sliding window vertically to identify 'hot' pixels for lanes detection is expected to yield better result. Overall it has been a fun (complex) project.
+
