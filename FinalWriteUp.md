@@ -114,4 +114,9 @@ Here's a [link to my video result](./project_output_video.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-While this code is working for one video it is clear there are shortcomings here. Under different lighting conditions the identification of lanes sometimes fail.  
+While this code is working for one video it is clear there are shortcomings here as it fails to work as smoothly on different types of videos. Under different lighting conditions the identification of lanes sometimes fail. 
+
+Challenge I faced was lane detection was failing on 23-24s mark on the project video -- it was detecting lane all the way to left of the highway divider vs till yellow line.
+Experimentating with different thresholds for color and gradient resolved the issues.
+
+Using of convolution neural network style technique vs sliding window vertically to identify 'hot' pixels for lanes detetion is expected to yield better result.
