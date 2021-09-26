@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/Chess-undistort.JPG "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
+[image2]: ./xamples/Testimage-undistort.JPG "Road Transformed"
 [image3]: ./examples/binary_combo_example.jpg "Binary Example"
 [image4]: ./examples/warped_straight_lines.jpg "Warp Example"
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
@@ -45,7 +45,7 @@ The code for this step is contained in the first code cell (In [172]) of the IPy
 #### 1. Provide an example of a distortion-corrected image.
 
 Code celll Ln 173 performs undistorting Test Images:
-![Example Here][examples/testimage-undistort.JPG]
+![Example Here][image2]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
