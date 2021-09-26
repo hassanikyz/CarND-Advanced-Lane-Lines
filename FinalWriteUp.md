@@ -59,13 +59,13 @@ Used combination of threshold x gradient and color and lightness channel. Played
 The code for my perspective transform includes a function called `transform_perspective()`, which appears in lines/cell In 150.  The `transform_perspective()` function takes as inputs an image (`img`), as well as source (`src`) and destination (`dst`) points.  I chose the hardcode the source and destination points in the following manner:
 
 ```python
-    # Quadrangle vertices coordinates in the source image
+
     src1 = [width // 2 - 76, height * 0.625]
     src2 = [width // 2 + 76, height * 0.625]
     src3 = [-100, height]
     src4 = [width + 100, height]
     src = np.float32([src1, src2, src3, src4])
-    # Quadrangle verties coordinates in the destination image
+
     dst1 = [100, 0]
     dst2 = [width - 100, 0]
     dst3 = [100, height]
@@ -76,7 +76,7 @@ This resulted in the following source and destination points:
 
 | Source        | Destination   | 
 |:-------------:|:-------------:| 
-| 585, 460      | 320, 0        | 
+| 564, 460      | 100, 0        | 
 | 203, 720      | 320, 720      |
 | 1127, 720     | 960, 720      |
 | 695, 460      | 960, 0        |
