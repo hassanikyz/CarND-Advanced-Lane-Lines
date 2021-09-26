@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [image1]: ./examples/Chess-undistort.JPG "Undistorted"
 [image2]: ./examples/Testimage-undistort.JPG "Road Transformed"
 [image3]: ./examples/sobel-color-lightness-thresh.JPG "Binary Example"
-[image4]: ./examples/perspective_transform.jpg "Warp Example"
+[image4]: ./examples/perspective_transform.JPG "Warp Example"
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
 [video1]: ./project_output_video.mp4 "Video"
