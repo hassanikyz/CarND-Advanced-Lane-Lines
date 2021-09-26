@@ -45,7 +45,7 @@ Camer calibartion metrics are calculated by running through all chess images pro
 
 #### 1. Provide an example of a distortion-corrected image.
 
-Code cell Ln 173 performs undistorting Test Images confirming calibration is working fine.
+Code cell Ln 173 of the Jupyter Notes book 'AdvancedLaneFinding.ipynb' performs undistorting. Test Images confirms calibration is working fine.
 ![Example Here][image2]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
@@ -114,4 +114,4 @@ Here's a [link to my video result](./project_output_video.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+While this code is working for one video it is clear there are shortcomings here. Under different lighting conditions the identification of lanes sometimes fail.  
