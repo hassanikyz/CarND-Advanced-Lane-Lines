@@ -35,7 +35,8 @@ The goals / steps of this project are the following:
 
 #### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
 
-The code for this step is contained in the first code cell (In [172]) of the IPython notebook located in "./AdvancedLaneFinding.ipynb"
+The code for this step is contained in the first code cell (In [172]) of the IPython notebook located in "./AdvancedLaneFinding.ipynb". Example given below.
+Camer calibartion metrics are calculated by running through all chess images provided and using OpenCV's supported functionality for calibration.
 
 
 ![alt text][image1]
@@ -44,12 +45,12 @@ The code for this step is contained in the first code cell (In [172]) of the IPy
 
 #### 1. Provide an example of a distortion-corrected image.
 
-Code cell Ln 173 performs undistorting Test Images:
+Code cell Ln 173 performs undistorting Test Images confirming calibration is working fine.
 ![Example Here][image2]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at lines # through # in `another_file.py`).  Here's an example of my output for this step.  (note: this is not actually from one of the test images)
+Used combination of threshold x gradient and color and lightness channel. Played with different values using trial and error to arrive at a set which works well for this video at least. 
 
 ![alt text][image3]
 
