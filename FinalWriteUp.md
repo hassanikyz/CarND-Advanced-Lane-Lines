@@ -44,7 +44,7 @@ The code for this step is contained in the first code cell (In [172]) of the IPy
 
 #### 1. Provide an example of a distortion-corrected image.
 
-Code celll Ln 173 performs undistorting Test Images:
+Code cell Ln 173 performs undistorting Test Images:
 ![Example Here][image2]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
